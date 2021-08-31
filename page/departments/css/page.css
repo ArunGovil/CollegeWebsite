@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Varela+Round&display=swap");
+
+#header {
+  background-color: #ebecf0;
+  border-radius: 0.2cm;
+  width: auto;
+}
+#head {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  color: #051a47;
+}
+.container {
+  border-radius: 0.2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "dpt1 dpt2 dpt3 dpt4"
+  "dpt5 dpt6 dpt7 dpt8"
+  "dpt9 dpt10 dpt11 dpt12"
+  "dpt13 dpt14 dpt15 dpt16";
+  grid-gap: 1rem;
+}
+#dpt1 {
+  grid-area: dpt1;
+  width: 100%;
+}
+#dpt2 {
+  grid-area: dpt2;
+  width: 100%;
+}
+#dpt3 {
+  grid-area: dpt3;
+  width: 100%;
+}
+#dpt4 {
+  grid-area: dpt4;
+  width: 100%;
+}
+#dpt5 {
+  grid-area: dpt5;
+  width: 100%;
+}
+#dpt6 {
+  grid-area: dpt6;
+  width: 100%;
+}
+#dpt7 {
+  grid-area: dpt7;
+  width: 100%;
+}
+#dpt8 {
+  grid-area: dpt8;
+  width: 100%;
+}
+#dpt9 {
+  grid-area: dpt9;
+  width: 100%;
+}
+#dpt10 {
+  grid-area: dpt10;
+  width: 100%;
+}
+#dpt11 {
+  grid-area: dpt11;
+  width: 100%;
+}
+#dpt12 {
+  grid-area: dpt12;
+  width: 100%;
+}
+#dpt13 {
+  grid-area: dpt13;
+  width: 100%;
+}
+#dpt14 {
+  grid-area: dpt14;
+  width: 100%;
+}
+#dpt15 {
+  grid-area: dpt15;
+  width: 100%;
+}
+#dpt16 {
+  grid-area: dpt16;
+  width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "dpt1 dpt2"
+    "dpt3 dpt4"
+    "dpt5 dpt6"
+    "dpt7 dpt8"
+    "dpt9 dpt10"
+    "dpt11 dpt12"
+    "dpt13 dpt14"
+    "dpt15 dpt16";
+  }
+}
+#footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #ebecf0;
+  border-radius: 0.2cm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+#mlogo {
+  border-radius: 0.2cm;
+  width: 90vw;
+  padding: 0.5vw;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #051a47;
+}
+.social-icons .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons img {
+  width: 55px;
+}
+.address {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  color: #051a47;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #051a47;
+}
+#bottom-line {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  color: #051a47;
+}
+
+@media screen and (max-width: 768px) {
+  #footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #mlogo {
+    width: 700px;
+  }
+}
+
